@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component is a Vue instance 1`] = `
+<div class="guest">
+  <div class="holder bordered">
+    <div class="chooser">
+      <div class="login fwb active">
+        Login
+      </div>
+      <div class="register fwb">
+        Register
+      </div>
+    </div>
+    <!---->
+    <div class="section login">
+      <text-input-stub value="sidlynx@gmail.com" label="email" validationerrors=""></text-input-stub>
+      <text-input-stub value="azerty" label="password" validationerrors="" type="password"></text-input-stub>
+      <!---->
+      <m-button-stub label="Login" state="info" style="float: right;"></m-button-stub>
+    </div>
+  </div>
+</div>
+`;

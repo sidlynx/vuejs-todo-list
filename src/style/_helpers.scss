@@ -1,0 +1,46 @@
+@import "variables";
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+.fwl {
+  font-weight: 300;
+}
+.fwr {
+  font-weight: 400;
+}
+.fwm {
+  font-weight: 500;
+}
+.fwb {
+  font-weight: 700;
+}
+.font-title {
+  font-family: QuickSand;
+}
+.font-content {
+  font-family: OpenSans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: QuickSand;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bordered {
+  border: 1px solid $color-border;
+}
+
+.rounded {
+  border-radius: 4px;
+}
